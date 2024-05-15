@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: orangered;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.fiji{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.rebel input {
+    display: block;
+}
+.main{
+background-color: rgb(255, 115, 0);
+padding: 50px 0px 20px 10px;
+
+}
+.first{
+    background-color: bisque;
+    width: 25%;
+    padding: 20px;
+    padding-top: 50px;
+    position: relative;
+    margin-bottom: 20rem;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+#lname{
+    display: inline;
+   width: 40%;
+   padding: 10px;
+   border-radius: 10px;
+   border: 0;
+}
+.main .rebel input{
+margin-bottom: 20px;
+padding: 10px;
+width: 100%;
+border-radius: 10px;
+border: 0;
+}
+#fname{
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+    border: 0;
+}
+.rebel select{
+    margin-bottom:20px ;
+    width: 100%;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+    color: grey;
+}
+.rebel{
+    margin-top: 20px;
+}
+ .button{
+   padding: 15px;
+   background-color: darkgreen;
+   width: 60%;
+   border: 0;
+}
+.second{
+    position: absolute;
+    left: 27%;
+bottom: 12.5%;
+background-color: coral;
+padding: 20px;
+width: 25%;
+}
+.second input{
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+}
+.second p{
+    margin-bottom: 20px;
+    font-size: larger;
+    font-weight: 600;
+}
+.second select{
+    padding: 10px;
+    padding-right: 93px;
+    margin-bottom: 10px;
+}
+.second .button2{
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+    background: linear-gradient(rgb(189, 42, 67),orange);
+    border: none;
+    font-weight: 600;
+    color: white;
+    font-size: 15px;
+}
+.third input{
+display: block;
+margin-bottom: 20px;
+width: 100%;
+padding: 10px;
+background-color: black;
+}
+.third{
+    background-color: cyan;
+    position: absolute;
+    left: 53%;
+    top: 29%;
+    padding: 20px;
+    width: 23%;
+}
+.third h1,p{
+text-align: center;
+margin-bottom: 15px;
+}
+.third p{
+    font-size: larger;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.third label{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 500;
+}
+.third ::placeholder{
+    font-size: larger;
+}
+.third .button3{
+    background-color: darkblue;
+    color: white;
+    border: none;
+    padding: 20px;
+    margin-top: 40px;
+}
+.fourth{
+    background-color: rgba(9, 9, 61, 0.747);
+    padding: 20px;
+    width: 20%;
+    float: left;
+    margin-left: 2%;
+    position: absolute;
+    left: 75%;
+    bottom: 26%;
+}
+
+.fourth p{
+    color: white;
+    padding: 10px 0  20px 0;
+}
+
+
+
+.fourth input{
+    margin-bottom: 10px;
+    outline: 0;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+}
+
+.fourth textarea{
+    /* margin-bottom: 10px; */
+    outline: 0;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    background-color: white;
+    height: 40px;
+    resize: none;
+    width: 100%;
+}
+
+
+.fourth button{
+    outline: 0;
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    background-color: blue;
+    margin-top: 15px;
+    color: white;
+}
+
+.a, .b, .c{
+    display: flex;
+    gap: 10px;
+}
+.fifth textarea,select,input,h1{
+display: block;
+margin-bottom: 20px;
+}
+.fifth{  
+  width: 20%;
+  background-color: lightgreen;
+  padding: 20px;
+  left: 77%;  
+  position: absolute;
+  top: 80%;
+}
+.finally{
+    position: relative;
+    margin: 0;
+    padding: 25px;
+    bottom: 20%;
+    background-color:bisque;
+    width: 55%;
+
+}
+.finally input{
+    display: inline;
+}
+.finally h4{
+    font-size: 15px;
+}
+.finally input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+.finally .rook{
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    width: 10%;
+
+}
+
